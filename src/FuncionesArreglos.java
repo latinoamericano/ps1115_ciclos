@@ -13,4 +13,7 @@ public class FuncionesArreglos {
         }
         return num;
     }
+    public String presentaArreglo(int []x){
+        return null;
+    }
 }

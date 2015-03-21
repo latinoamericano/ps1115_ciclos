@@ -14,7 +14,7 @@ public class FuncionesArreglos {
         return num;
     }
 
-    public String presentaArreglo(int[] x) {
+    public String arregloToTexto(int[] x) {
         String texto = "";
         for (int i = 0; i < x.length; i++) {
             texto += x[i] + " ";

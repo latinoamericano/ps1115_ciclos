@@ -12,8 +12,8 @@ public class TestArreglos {
         FuncionesCiclos fc = new FuncionesCiclos();
         int x = Integer.parseInt(JOptionPane.showInputDialog("Ingrese cantidad de números", 55));
         int a[]=fa.generaAleatorios(x);
-        String s = fa.presentaArreglo(a);
+        String s = fa.arregloToTexto(a);
         fc.presentaMensaje(s.replaceAll("\n", "<br>"));
-        fc.presentaMensaje(fa.presentaArreglo(fa.invertirArreglo(a)).replaceAll("\n", "<br>"));
+        fc.presentaMensaje(fa.arregloToTexto(fa.invertirArreglo(a)).replaceAll("\n", "<br>"));
     }
 }
